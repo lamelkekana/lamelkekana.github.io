@@ -5,6 +5,19 @@ import { ExternalLink, Github, Cloud, Brain, Zap, Shield, Heart, AlertCircle } f
 const ProjectsSection: React.FC = () => {
 const projects = [
     {
+      title: "Solar Radiation Prediction End-to-End MLOps project",
+      description: "This project implements an end-to-end MLOps pipeline for predicting solar radiation using historical weather and solar data. It covers automated data ingestion, model training, validation, CI/CD for deployment, and monitoring to ensure model performance in production. The system enables scalable, maintainable, and reliable forecasting to support solar energy and grid optimization.",
+      tools: ["AWS", "Python", "Prefect", "Scikit-learn", "Prometheus", "Grafana", "Evidently AI", "FastAPI", "PostgreSQL","Docker","Github Actions","MLflow"],
+      codeUrl: "https://github.com/LamelK/solar-prediction-mlops_zoomcamp",
+      liveUrl: null,
+      icon: Zap,
+      color: "text-orange-400",
+      borderColor: "border-orange-400/30",
+      hoverBorder: "hover:border-orange-400/50",
+      shadowColor: "hover:shadow-orange-400/10",
+      image: "/images/mlops_diagram.png"
+    },
+    {
 
       title: "Automated Data Pipeline with Interactive Dashboard",
       description: "End-to-end automated data pipeline integrating data ingestion, processing, and visualization. Features an interactive dashboard with weekly data refresh, enabling timely data-driven decision-making.",
